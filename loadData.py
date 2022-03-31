@@ -17,7 +17,7 @@ def loadData(filename):
             plt.plot(D[:,i], Y, ls= '', marker = 'o')
             plt.xlabel(featuresSet[i])
             plt.ylabel(predictLabel)
-        #    plt.show()
+            plt.show()
         
     finally:
      print("read %s rows" % rows)
